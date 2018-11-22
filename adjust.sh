@@ -18,7 +18,7 @@
 #fi
 
 #common values to all 
-if [[ $1!= "r" ]]; then
+if [[ $1!='r' ]]; then
     exit
 fi
 for (( i = 1; i <= $2; i++ )); do
