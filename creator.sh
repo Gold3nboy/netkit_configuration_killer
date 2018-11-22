@@ -90,11 +90,11 @@ ospf hello-interval 2\n\
 \n\
 !this command activates ospf on the next subsets\n\
 router ospf\n\
-network   area\n\   
-network   area\n\   
+network   area\n\
+network   area\n\
 network   area"
         
-        echo -e $skeleton_router_ospdfconf > $zebrafoldername/ospfd.conf
+        echo -e $skeleton_router_ospfdconf > $zebrafoldername/ospfd.conf
 
     fi
 done
